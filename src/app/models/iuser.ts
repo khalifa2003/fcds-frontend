@@ -4,7 +4,6 @@ export interface IUser {
   lname: string;
   phone: string;
   image: string;
-  wishlist: string[];
   email: string;
   password: string;
   passwordChangedAt?: Date;
@@ -13,4 +12,6 @@ export interface IUser {
   passwordResetVerified?: string;
   active: boolean;
   role: string;
+  watchlist: string[];
+  reviews: string[];
 }
